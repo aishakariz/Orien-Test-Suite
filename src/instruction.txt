@@ -1,0 +1,20 @@
+create a new Maven project
+group id: cydeo
+ArtifactID: selenium-project
+
+add dependencies for selenium -- maven repository - selenium java
+add dependencies for webdriver -
+<dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.31.0</version>
+        </dependency>
+test run webdriver
+com.cydeo.test
+create class
+
+1.set up webdrivermanager --webdrivermanager.chromedriver().setup()
+create instance of chrome browser
+Wtbdriver driver = new Chromedriver():
+test
+driver.get (url)
