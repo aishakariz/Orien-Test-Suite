@@ -10,7 +10,7 @@ add dependencies for webdriver -
             <version>4.31.0</version>
         </dependency>
 test run webdriver
-com.cydeo.test
+com.orionsuite.test
 create class
 
 1.set up webdrivermanager --webdrivermanager.chromedriver().setup()
